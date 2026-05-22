@@ -214,6 +214,17 @@ section {
   width: 200px;
   height: 200px
 }
+
+.avatar-circle {
+  width: 140px;         /* Sets a perfect uniform width */
+  height: 140px;        /* Sets the exact same height to make it a perfect square */
+  object-fit: cover;    /* The magic line: crops the image dynamically so it never stretches */
+  border-radius: 50%;   /* Turns the square into a perfect circle */
+  display: block;
+  margin: 0 auto 15px;  /* Centers the circle and adds space below it */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Optional: adds a soft shadow to match your cards */
+}
+
 /* =========================
    SMOOTH SCROLL
 ========================= */
