@@ -197,11 +197,22 @@ section {
 
 
 }
+.avatarimglidia {
+    width: 80px;
+    height: 90px; 
+    align-items: center;
+    justify-content: center;
+    clip-path: circle(50%);
+}
 .nametitle {
   color: darkolivegreen;
 }
 .title {
   color: #ffd166;
+}
+.slides {
+  width: 200px;
+  height: 200px
 }
 /* =========================
    SMOOTH SCROLL
